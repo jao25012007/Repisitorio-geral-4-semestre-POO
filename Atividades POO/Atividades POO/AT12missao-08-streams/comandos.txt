@@ -1,0 +1,9 @@
+siga a ordem:
+
+cd .\missao-08-streams
+
+javac -encoding UTF-8 -d bin (Get-ChildItem -Path .\src -Recurse -Filter *.java).FullName
+
+java -cp bin br.com.technexus.main.Main
+
+java -cp bin br.com.technexus.security.ForcaBruta

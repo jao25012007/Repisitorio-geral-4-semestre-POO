@@ -1,0 +1,7 @@
+siga a ordem:
+
+cd .\missao-08-operacao-zero-trust
+
+javac -encoding UTF-8 -d bin (Get-ChildItem -Path .\src -Recurse -Filter *.java).FullName
+
+java -cp bin br.com.cybercorp.main.MainTeste

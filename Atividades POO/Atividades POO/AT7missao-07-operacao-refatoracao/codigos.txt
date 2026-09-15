@@ -1,0 +1,7 @@
+siga a sequencia:
+
+cd .\missao-07-operacao-refatoracao
+
+javac -d bin (Get-ChildItem -Path .\src -Recurse -Filter *.java).FullName
+
+java -cp bin br.com.ecommerce.main.MainTeste

@@ -1,0 +1,7 @@
+siga a ordem:
+
+cd .\meu-primeiro-sistema
+
+javac -d bin .\src\Carro.java .\src\Sistema.java
+
+java -cp bin Sistema

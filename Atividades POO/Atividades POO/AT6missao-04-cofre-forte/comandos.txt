@@ -1,0 +1,7 @@
+siga a sequencia:
+
+d .\missao-04-cofre-forte
+
+javac -d bin (Get-ChildItem -Path .\src -Recurse -Filter *.java).FullName
+
+java -cp bin br.com.banco.main.MainTeste
